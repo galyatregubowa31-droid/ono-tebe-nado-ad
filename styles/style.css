@@ -1,1 +1,125 @@
-/* место для вашего кода */
+body {
+    font-family: Raleway, sans-serif;
+    line-height: 1.5;
+    color: #333; 
+    font-weight: 20;
+    background-color: F5F5F5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section {
+  padding: 60px 20px;
+  margin: 40px auto;
+  max-width: 1200px;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.header {
+  background: linear-gradient(135deg, #a5d8ff, #74c0fc);
+}
+
+.about {
+  background: linear-gradient(135deg, #ffd6a5, #ffc078);
+}
+
+.projects {
+  background: linear-gradient(135deg, #b2f2bb, #8ce99a);
+}
+
+.footer {
+  background: linear-gradient(135deg, #d0bfff, #9775fa);
+}
+
+.cover {
+  position: relative;
+  background-image: url(".images/cover.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 160px 40px 100px;
+  text-transform: uppercase;
+}
+
+/* Полупрозрачный оверлей */
+.overlay {
+  position: absolute;
+  inset: 0; 
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 0;
+}
+
+/* Заголовок */
+.cover__title {
+  position: relative;
+  z-index: 1;
+  font-size: 100px;
+  line-height: 115px;
+  letter-spacing: 30px;
+  margin: 0 0 135px;
+}
+
+.aligned-text {
+  display: block;
+}
+
+.aligned-text_center {
+  text-align: center;
+}
+
+.aligned-text_right {
+  text-align: right;
+}
+
+/* Управление расстояниями между буквами */
+.letter-spacing-extended {
+  letter-spacing: 5px;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
+}
+
+/* Описание под заголовком */
+.cover__description {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Подзаголовок */
+.cover__description-text {
+  font-size: 22px;
+  font-weight: 400;
+  word-spacing: 18px;
+}
+
+/* Кнопка */
+.bet-button {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+  padding: 12px 32px;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.bet-button:hover {
+  background: #fff;
+  color: #000;
+}
