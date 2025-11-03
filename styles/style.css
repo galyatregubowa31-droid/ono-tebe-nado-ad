@@ -5,7 +5,7 @@
 }
 
 .main-header {
-    padding: 40px 50px 30px;
+    padding: 92px 50px;
     border-bottom: 2px solid #f0f0f0;
 }
 
@@ -23,15 +23,6 @@
 .header_l-l {
   display: flex;
   list-style-position: inside;
-}
-
-.header-adress {
-  display: flex;
-  flex-direction: column;
-  font-size: 18px;
-  font-style: normal;
-  height: 98px;
-  width: 240px;
 }
 
 .header_l-l-item_no-bullit {
