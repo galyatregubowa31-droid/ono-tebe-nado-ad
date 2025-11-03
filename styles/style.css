@@ -25,6 +25,15 @@
   list-style-position: inside;
 }
 
+.header-adress {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-style: normal;
+  height: 98px;
+  width: 240px;
+}
+
 .header_l-l-item_no-bullit {
   list-style: none;
 }
