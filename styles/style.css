@@ -39,7 +39,7 @@
   width: 150px;
 }
 
-.header_adress {
+.header-adress {
   display: flex;
   flex-direction: column;
   font-size: 18px;
