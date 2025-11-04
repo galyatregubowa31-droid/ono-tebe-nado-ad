@@ -1,47 +1,47 @@
-.header{
+.header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
     padding: 92px 50px;
 }
 
-.header_links-list{
+.header_links-list {
     display: flex;
     gap: 32px;
 }
 
 
-.header_links-list-item{
+.header_links-list-item {
     font-size: 18px;
     list-style: circle;
 }
 
-.header_links-list-item_no-bullit{
+.header_links-list-item_no-bullit {
     list-style: none;
 }
 
-.header_link{
+.header_link {
     border-bottom: 1px solid;
     text-decoration: none;
 }
 
-.header_link_go{
+.header_link_go {
     border-bottom: none;
 }
 
-.header_logo{
+.header_logo {
     width: 148px;
     height: 105px;
 }
 
-.address{
+.address {
     width: 240px;
     font-size: 18px;
     font-style: normal;
     line-height: 1.35;
 }
 
-.h_address{
+.h_address {
     justify-self: end;
 }
 
